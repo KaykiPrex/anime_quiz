@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/estilo.css">
+    <title>Anime Quiz</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <div class="container my-5 text-center">
+            <form>
+                <input class="form-control" type="text" placeholder="Ingrese el anime">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </form>
+            <div class="anime-container" id="anime-container" > 
+
+            </div>  
+        </div>
+        <!-- <div class="card bg-dark text-white" id="card">
+            <img class="card-img" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div> -->
+    </main>
+
+<footer class="footer">
+    <button type="submit" id="btn_up" class="btn btn-primary">MAS</button>
+    <button type="submit" id="btn_down" class="btn btn-primary">MENOS</button>
+</footer>
+
+<script src="/js/fetchAnime.js" defer></script>
+</body>
+</html>

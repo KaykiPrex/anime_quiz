@@ -1,0 +1,24 @@
+.anime-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.card{
+    background: rgb(0, 0, 0); 
+    box-shadow: darkred;
+    width: 50%;
+    height: 50%;
+}
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
+}
+
+.footer{
+    display: flex ;
+    justify-content: center ;
+}
